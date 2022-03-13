@@ -227,7 +227,7 @@ void Sudoku::solve() {
 					while (c == 9 || b == 9 || a == 9) {
 						if (Save.empty()) {
 							cout << "No answer" << endl;
-							Save.pop_back();  //������ ƨ�� ��������
+							Save.pop_back();  
 						}
 						a = Save.back() / 100;
 						b = (Save.back() % 100) / 10;
